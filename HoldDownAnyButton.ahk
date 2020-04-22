@@ -24,7 +24,7 @@ Return
     porzd := pausedKeys.Pop()
     ;FileAppend % porzd . "`n", pausedKeys.txt
     gelch := "{" . porzd . " up}"
-    FileAppend % gelch . "`n", pausedKeys.txt
+    ;FileAppend % gelch . "`n", pausedKeys.txt
     Hotkey, % porzd . " up", doNowt, Off
     Send %gelch%
   }
